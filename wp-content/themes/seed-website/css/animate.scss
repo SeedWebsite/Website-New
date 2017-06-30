@@ -1,0 +1,24 @@
+ /* Animaion on scroll */
+
+ /* Animaion on scroll */
+
+.bar { 
+  height: 10px; 
+  width: 5px;
+  background: #CCC; 
+  margin: 50px; 
+}
+[data-aos="bar"] {
+ opacity: 1;
+ transition-property: transform, opacity;
+ width: 0px!important;
+ height: 10px!important;
+ transition: 0.5s;
+ transform-origin: top-left; 
+ &.aos-animate {
+   opacity: 1;
+   width: 700px;
+   transition: 0.5s ease-in-out;
+   transform-origin: top-left; 
+ }
+}

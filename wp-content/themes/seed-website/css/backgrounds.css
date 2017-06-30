@@ -1,0 +1,382 @@
+/* Backgrounds
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.masthead-background {
+   background-color: #6FDAF5;
+   background-image: url(http://www.seedpublicity.co.uk/wp-content/uploads/2016/12/background-6.jpg);
+   background-size: cover;
+   margin-top: 0;
+   padding-top: 4rem;
+   min-height: 100%;
+   color: #F7FFF7;
+   height: -moz-calc(100% - 100px); /* Firefox */
+   height: -webkit-calc(100% - 100px); /* Chrome, Safari */
+   height: calc(100% - 100px); /* IE9+ and future browsers */
+   max-height: 550px;
+   min-height: 400px;
+}
+
+.services-background {
+  background-color: #FFF;
+  background-image: url(http://www.seedpublicity.co.uk/wp-content/uploads/2016/12/forrest-background1.jpg);
+  background-size: cover;
+  margin-top: 0;
+  padding-top: 4rem;
+  min-height: 100%;
+  color: #F7FFF7;
+  height: -moz-calc(100% - 100px); /* Firefox */
+  height: -webkit-calc(100% - 100px); /* Chrome, Safari */
+  height: calc(100% - 100px);
+  border-bottom: 2px solid #DBE3E7; /* IE9+ and future browsers */
+  max-height: 550px;
+  min-height: 400px;
+  padding-top:10%;
+}
+
+.white-background {
+  background-color: #FFF;
+  padding-top: 5rem;
+}
+
+.white-pic-background {
+  background-color: #FFF;
+  background-image: url(http://www.seedtest.design/wp-content/uploads/2016/13/HomepageThree.jpg);
+  background-size: cover;
+  margin-top: 0;
+  padding-top: 4rem;
+  min-height: 100%;
+  color: #555555;
+  height: -moz-calc(100% - 100px); /* Firefox */
+  height: -webkit-calc(100% - 100px); /* Chrome, Safari */
+  height: calc(100% - 100px);
+  border-bottom: 2px solid #DBE3E7; /* IE9+ and future browsers */
+  min-height: 400px;
+  color: #F2F7FA;
+}
+
+.pier-background {
+  background-color: #FFF;
+  background-image: url(http://www.seedtest.design/wp-content/uploads/2016/13/HomepageTwo.jpg);
+  background-size: cover;
+  margin-top: 0;
+  padding-top: 4rem;
+  min-height: 100%;
+  color: #555555;
+  height: -moz-calc(100% - 100px); /* Firefox */
+  height: -webkit-calc(100% - 100px); /* Chrome, Safari */
+  height: calc(100% - 100px);
+  border-bottom: 2px solid #DBE3E7; /* IE9+ and future browsers */
+  min-height: 400px;
+  color: #F2F7FA;
+}
+
+.forrest-background {
+  background-color: #FFF;
+  background-image: url(http://www.seedpublicity.co.uk/wp-content/uploads/2017/03/seo-background.jpg);
+  background-size: cover;
+  margin-top: 0;
+  color: #F7FFF7;
+  height: -moz-calc(100% - 100px); /* Firefox */
+  height: -webkit-calc(100% - 100px); /* Chrome, Safari */
+  height: calc(100% - 100px);
+  max-height: 550px;
+  min-height: 400px;
+}
+
+.AboutUs-background {
+  background-color: #FFF;
+  background-image: url(http://www.seedtest.design/wp-content/uploads/2016/13/UsHeader.jpg);
+  background-size: cover;
+  margin-top: 0;
+  color: #F7FFF7;
+  height: -moz-calc(100% - 100px); /* Firefox */
+  height: -webkit-calc(100% - 100px); /* Chrome, Safari */
+  height: calc(100% - 100px);
+  border-bottom: 2px solid #DBE3E7; /* IE9+ and future browsers */
+  max-height: 550px;
+  min-height: 400px;
+  padding-top:10%;
+}
+
+.WhatWeDo-background {
+  background-color: #FFF;
+  background-image: url(http://www.seedtest.design/wp-content/uploads/2016/13/WhatWeDoHeader.jpg);
+  background-size: cover;
+  margin-top: 0;
+  color: #F7FFF7;
+  height: -moz-calc(100% - 100px); /* Firefox */
+  height: -webkit-calc(100% - 100px); /* Chrome, Safari */
+  height: calc(100% - 100px);
+  border-bottom: 2px solid #DBE3E7; /* IE9+ and future browsers */
+  max-height: 550px;
+  min-height: 400px;
+  padding-top:10%;
+}
+
+.Results-background {
+  background-color: #FFF;
+  background-image: url(http://www.seedtest.design/wp-content/uploads/2016/13/ResultsHeader.jpg);
+  background-size: cover;
+  margin-top: 0;
+  color: #F7FFF7;
+  height: -moz-calc(100% - 100px); /* Firefox */
+  height: -webkit-calc(100% - 100px); /* Chrome, Safari */
+  height: calc(100% - 100px);
+  border-bottom: 2px solid #DBE3E7; /* IE9+ and future browsers */
+  max-height: 550px;
+  min-height: 400px;
+  padding-top:10%;
+}
+
+.Resources-background {
+  background-color: #FFF;
+  background-image: url(http://www.seedtest.design/wp-content/uploads/2016/13/ResourcesHeader.jpg);
+  background-size: cover;
+  margin-top: 0;
+  color: #F7FFF7;
+  height: -moz-calc(100% - 100px); /* Firefox */
+  height: -webkit-calc(100% - 100px); /* Chrome, Safari */
+  height: calc(100% - 100px);
+  border-bottom: 2px solid #DBE3E7; /* IE9+ and future browsers */
+  max-height: 550px;
+  min-height: 400px;
+  padding-top:10%;
+}
+
+.fullscreen-bg {
+
+
+}
+
+.fullscreen-bg__video {
+  position: absolute;
+  margin-top: 0px;
+  color: #F7FFF7;
+  border-bottom: 2px solid #DBE3E7; /* IE9+ and future browsers */
+  width: 100%;
+  height: auto;
+  z-index: -100;
+}
+
+@media (max-width: 1239px) {
+    .fullscreen-bg__video {
+      display: none;
+    }
+    .fullscreen-bg {
+      background: url(http://www.seedtest.design/wp-content/uploads/2016/13/ResourcesHeader.jpg) center center / cover no-repeat;
+  }
+}
+
+@media (max-width: 550px) {
+  .mobile-padding {
+    padding-top: 30%!important;
+  }
+  .fullscreen-bg {
+    padding-top: 30%!important;
+  }
+}
+
+.forrest-background a {
+  color: white;
+}
+
+.blog-background {
+  margin-top: 0;
+  padding-top: 4rem;
+  height: -moz-calc(100% - 100px); /* Firefox */
+  height: -webkit-calc(100% - 100px); /* Chrome, Safari */
+  height: calc(100% - 100px); /* IE9+ and future browsers */
+  background-size: cover;
+  background-position: center;
+}
+
+.full-background-image {
+  padding-top: 4rem;
+  min-height: 500px;
+  background-size: cover;
+  background-position: center;
+}
+
+.new-background {
+  color: #555;
+  background-image: url(http://www.seedpublicity.co.uk/wp-content/uploads/2016/12/process-background1.jpg);
+  background-size: cover;
+  margin-top: 0;
+  padding-top: 4rem;
+  min-height: 100%;
+  height: -moz-calc(100% - 100px); /* Firefox */
+  height: -webkit-calc(100% - 100px); /* Chrome, Safari */
+  height: calc(100% - 100px); /* IE9+ and future browsers */
+}
+
+.secondary-background {
+  color: #555;
+  background-image: url(http://www.seedpublicity.co.uk/wp-content/uploads/2016/12/secondary-background.jpg);
+  background-size: cover;
+  margin-top: 0;
+  padding-top: 4rem;
+  min-height: 100%;
+  height: -moz-calc(100% - 100px); /* Firefox */
+  height: -webkit-calc(100% - 100px); /* Chrome, Safari */
+  height: calc(100% - 100px); /* IE9+ and future browsers */
+}
+
+.double-background {
+  color: #555;
+  background-image: url(http://www.seedpublicity.co.uk/wp-content/uploads/2016/12/double-background.jpg);
+  background-size: cover;
+  margin-top: 0;
+  padding-top: 4rem;
+  min-height: 100%;
+  height: -moz-calc(100% - 100px); /* Firefox */
+  height: -webkit-calc(100% - 100px); /* Chrome, Safari */
+  height: calc(100% - 100px); /* IE9+ and future browsers */
+}
+
+.seo-background {
+  background-color: #303953;
+  background-size: cover;
+  margin-top: 0;
+  padding-top: 4rem;
+  min-height: 100%;
+  color: #F7FFF7;
+  height: -moz-calc(100% - 100px); /* Firefox */
+  height: -webkit-calc(100% - 100px); /* Chrome, Safari */
+  height: calc(100% - 100px);
+  border-bottom: 2px solid #333B52; /* IE9+ and future browsers */
+}
+
+.ppc-background {
+   background-color: #574992;
+   background-size: cover;
+   margin-top: 0;
+   padding-top: 4rem;
+   min-height: 100%;
+   color: #F7FFF7;
+   height: -moz-calc(100% - 100px); /* Firefox */
+   height: -webkit-calc(100% - 100px); /* Chrome, Safari */
+   height: calc(100% - 100px);
+   border-bottom: 2px solid #524684; /* IE9+ and future browsers */
+   }
+
+.social-background {
+  background-color: #9F559F;
+  background-size: cover;
+  margin-top: 0;
+  padding-top: 4rem;
+  min-height: 100%;
+  color: #F7FFF7;
+  height: -moz-calc(100% - 100px); /* Firefox */
+  height: -webkit-calc(100% - 100px); /* Chrome, Safari */
+  height: calc(100% - 100px);
+  border-bottom: 2px solid #A155A1; /* IE9+ and future browsers */
+}
+
+.stats-background {
+  background-color: #499EBA;
+  background-size: cover;
+  margin-top: 0;
+  padding-top: 4rem;
+  min-height: 100%;
+  color: #F7FFF7;
+  height: -moz-calc(100% - 100px); /* Firefox */
+  height: -webkit-calc(100% - 100px); /* Chrome, Safari */
+  height: calc(100% - 100px);
+  border-bottom: 2px solid #A155A1; /* IE9+ and future browsers */
+}
+
+.content-background {
+  background-color: #FE83AE;
+  background-size: cover;
+  margin-top: 0;
+  padding-top: 4rem;
+  min-height: 100%;
+  color: #F7FFF7;
+  height: -moz-calc(100% - 100px); /* Firefox */
+  height: -webkit-calc(100% - 100px); /* Chrome, Safari */
+  height: calc(100% - 100px);
+  border-bottom: 2px solid #F97FAA; /* IE9+ and future browsers */
+}
+
+.graphic-background {
+  background-color: #89C3E1;
+  background-size: cover;
+  margin-top: 0;
+  padding-top: 4rem;
+  min-height: 100%;
+  color: #F7FFF7;
+  height: -moz-calc(100% - 100px); /* Firefox */
+  height: -webkit-calc(100% - 100px); /* Chrome, Safari */
+  height: calc(100% - 100px);
+  border-bottom: 2px solid #7CBFE1; /* IE9+ and future browsers */
+}
+
+.blue-background {
+  background-color: #295078;
+  padding-top: 5rem;
+  color: #F7FFF7;
+}
+
+.blue-background {
+  background-color: #295078;
+  padding-top: 5rem;
+  color: #F7FFF7;
+}
+
+.dark-background {
+  background-color: #303A52;
+  padding-top: 5rem;
+  color: #F7FFF7;
+}
+
+.dark-background a {
+  color: #F7FFF7;
+}
+
+.red-background {
+  background-color: #FC6066;
+  padding-top: 1rem;
+  color: #F7FFF7;
+ }
+
+ .red-background-2 {
+   background-color: #FC6066;
+ }
+
+ .map-background {
+   position:absolute;
+   top:0;
+   bottom:0;
+   width:100%;
+ }
+
+.grey-background {
+  background-color: #F2F7FA;
+  padding-top: 5rem;
+  border-top: 2px solid #DBE3E7;
+  border-bottom: 2px solid #DBE3E7;
+  border-left: 2px solid #DBE3E7;
+  border-right: 2px solid #DBE3E7;
+}
+
+.case-study-box-1 {
+	background-color: #303953;
+	padding: 2rem 4rem;
+	color: #F2F7FA;
+	border-radius: 0px 4px 4px 0px;
+}
+
+.case-study-box-2 {
+	background-color: #574992;
+	padding: 2rem 4rem;
+	color: #F2F7FA;
+	border-radius: 4px 0px 0px 4px;
+	margin-right: 0!important;
+}
+
+.case-study-box-3 {
+	background-color: #9E579E;
+	padding: 2rem 4rem;
+	color: #F2F7FA;
+	border-radius: 0px 4px 4px 0px;
+}

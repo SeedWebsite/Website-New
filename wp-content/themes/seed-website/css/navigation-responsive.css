@@ -1,0 +1,137 @@
+/* Navigation
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.nav {
+    z-index: 1; }
+
+
+.nav a {
+        color: white;
+    }
+}
+
+.nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 3;
+  width: 100%;
+  background-color: #295078;
+}
+
+.nav:after {
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 1rem;
+            background-color: #295078;
+            opacity: 0.15;
+        }
+    }
+
+    .nav__group {
+        position: relative;
+        height: 2.5rem );
+    }
+
+    .nav__items {
+        position: fixed;
+        z-index: 1;
+        top: 50%;
+        left: 0;
+        width: 100%;
+        @include transform( translateY( -50% ) );
+        display: none;
+        pointer-events: none;
+    }
+
+    .nav__item {
+        position: relative;
+        @include gamma;
+        @include regular;
+        text-align: center;
+
+        &:not(:last-child) {
+            margin-bottom: rem( $v_gutter );
+        }
+
+        a {
+            position: relative;
+            display: inline-block;
+            vertical-align: top;
+            position: relative;
+            color: $color_white;
+        }
+
+        // Active state
+        &.is-active {
+
+            a {
+
+                &:after {
+                    @include pseudo-element;
+                    bottom: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 0.18em;
+                    background-color: $color_white;
+                    opacity: 0.4;
+                }
+            }
+        }
+    }
+}
+
+@include media( '>=medium' ) {
+
+    .nav {
+        position: absolute;
+        z-index: 1;
+        top: rem( $v_gutter * 3 );
+        width: 100%;
+    }
+
+    .nav__group {
+        position: relative;
+    }
+
+    .nav__items {
+        text-align: right;
+    }
+
+    .nav__item {
+        position: relative;
+        display: inline-block;
+        margin-left: rem( $h_gutter );
+
+        &:after {
+            @include pseudo-element;
+            top: 100%;
+            width: 100%;
+            height: 0.18em;
+            background-color: $color_white;
+            opacity: 0.4;
+            @include transition-property( background-color );
+            @include transition-duration( 0.066s );
+            @include transition-timing-function( ease-in-out );
+            pointer-events: none;
+        }
+
+        // Hover state
+        &:hover {
+
+            &:after {
+                opacity: 0.8;
+            }
+        }
+
+        // Active state
+        &.is-active {
+
+            &:after,
+            &:hover:after {
+                opacity: 1;
+            }
+        }
+    }
+}

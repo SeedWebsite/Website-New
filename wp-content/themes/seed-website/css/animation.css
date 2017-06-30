@@ -1,0 +1,106 @@
+/* Animation Styles
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+/* Line breaks */
+
+.underline { width: 12%;
+  height: 4px;
+  background-color: #6FDAF5;
+  margin-top: 1em;
+  margin-bottom: 2rem;
+  transition: all 0.6s;
+  -webkit-transition: all 0.6s;
+  -webkit-font-smoothing: antialiased;
+  transition-property: all;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in-out;
+  transition-timing-function: cubic-bezier(0.25, 0.1, 0.25, 1);
+  transition-delay: initial;
+}
+
+.underline:hover { width: 66%; }
+
+.nav-underline {
+  text-decoration: none;
+  border-top: 0px solid #36DB8C;
+  border-bottom: 0px solid #36DB8C;
+  width: 0px;
+  transition: 0.1s ease-in-out;
+}
+
+.nav-underline:hover {
+  border-bottom: 4px solid #36DB8C;
+  border-top: 4px solid #36DB8C;
+  width: 66%; }
+
+/* Image animations */
+
+.overlay {
+  transition: all 0.6s;
+  -webkit-transition: all 0.6s;
+  -webkit-font-smoothing: antialiased;
+  transition-property: all;
+  transition-duration: 0.5s;
+  transition-timing-function: ease;
+  transition-timing-function: cubic-bezier(0.25, 0.1, 0.25, 1);
+  transition-delay: initial;
+  border-top: 4px solid transparent;
+ }
+
+.overlay:hover {
+  border-top: 4px solid #FF5E63;
+
+ }
+
+.grow { transition: all .2s ease-in-out; }
+
+.grow:hover { transform: scale(1.1); }
+
+.hover { opacity: 0.6; }
+
+.hover:hover { opacity: 1.0; }
+
+.category {
+
+    -webkit-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    background: #e6e6e6;
+    content: "";
+    height: 1px;
+    position: absolute;
+    top: 10px;
+    width: 20px;
+  }
+
+/* Animaion on scroll */
+
+.bar {
+  height: 4px;
+  width: 5px;
+  background-color: #6FDAF5;
+  margin-top: 1em;
+  margin-bottom: 2rem;
+}
+
+[data-aos="bar"] {
+  opacity: 1;
+  -webkit-transition-property: opacity, -webkit-transform;
+  transition-property: opacity, -webkit-transform;
+  transition-property: transform, opacity;
+  transition-property: transform, opacity, -webkit-transform;
+  width: 0px;
+  height: 6px;
+  -webkit-transition: 0.8s;
+  transition: 0.8s;
+  -webkit-transform-origin: top-left;
+          transform-origin: top-left;
+}
+[data-aos="bar"].aos-animate {
+  opacity: 1;
+  width: 66%;
+  -webkit-transition: 0.8s ease-in-out;
+  transition: 0.8s ease-in-out;
+  -webkit-transform-origin: top-left;
+          transform-origin: top-left;
+}
